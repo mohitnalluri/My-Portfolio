@@ -1,0 +1,183 @@
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: beige;
+}
+.header img{
+    float: left;
+  padding-left: 9px;
+    width:  40px; 
+    height: 40px;
+    
+}
+.header h1{
+   
+    position: relative;
+    padding-top: 2px;
+    padding-left: 60px;
+       
+}
+header .nav{
+    position: fixed;
+    top: 1rem;
+    right: -40%;
+    width: 90%;
+    height: 100%;
+    
+    text-align: right;
+    align-items: flex-start;
+
+}
+
+nav{
+    display: block;
+    
+}
+
+header .nav ul{
+    flex-flow: column;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: normal;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+ul{
+    display: block;  
+}
+
+header .nav ul li{
+    margin-left: 2rem ;
+}
+
+header .nav ul li a{
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.Home .basic img{
+    viewport-fit: 100%;
+    width:100%;
+    padding-top: 6%;
+    aspect-ratio: 100/36;
+    }
+
+.Home .basic .text{
+    position: absolute;
+    top: 34%;
+    left:30%;
+    font-size: 400%;
+    color: lightseagreen;
+}
+ 
+.About .box-container{
+    display: flex;
+    flex-direction: row;
+    padding: 4rem;
+    background-color: rgb(121, 182, 116);
+    border-radius: 2rem;
+}
+
+.About .box-container .img{
+    width:80%;
+     text-align: center;
+
+}
+
+.About .box-container .img img{
+    height: auto;
+    width: 50%;
+    border-radius: 5%;
+    
+}
+
+.About .box-container .content{
+font-size: 1.2rem; 
+font-weight: normal;   
+}
+
+.About .box-container .content span{
+color: rgb(26, 80, 131);
+font-weight: 500;
+
+}
+
+table,th,td{
+    border: 1px solid black;
+}
+
+div{
+    display: block;
+}
+
+.Education .box-container{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+flex-direction: column; 
+}
+
+.Education .box-container .box{
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    border-radius: 0.5rem;
+    box-shadow: 0.2rem 0.5rem 1rem rgba(0, 0, 0, 0.2); 
+    text-align: center;
+    position: relative;
+    margin-top: 2rem;
+    overflow: hidden;
+    background: rgb(252, 252, 252); 
+
+}
+
+.Education .box-container .box .content{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 70rem;
+
+}
+
+footer .footer .box-container{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+footer .footer{
+    min-height: auto;
+    padding: 0;
+    background: rgb(45,40,60);
+}
+
+footer .footer .box-container .box{
+    flex: 1 1 25rem;
+    margin: 2rem;
+}
+
+footer .footer .box-container .box h3{
+    color: #fff;
+    font-weight: normal;
+    font-size: 1.5rem;
+}
+footer .footer .box-container .box p{
+    color: #fff;
+    font-weight: 100;
+    font-size: 1rem;
+}
+
+footer .footer .box-container .box a{
+    color: #fff;
+}
+
+
+
