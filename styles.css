@@ -69,19 +69,25 @@ header .nav ul li a{
     font-weight: 600;
 }
 
+.Home .basic{
+    position: relative;
+}
+
 .Home .basic img{
     viewport-fit: 100%;
     width:100%;
     padding-top: 6%;
     aspect-ratio: 100/36;
+
     }
 
 .Home .basic .text{
     position: absolute;
-    top: 28%;
+    top: 40%;
     left:30%;
     font-size: 400%;
     color: rgb(93, 224, 213);
+    z-index: 1;
 }
  
 .About .box-container{
